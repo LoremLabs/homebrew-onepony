@@ -6,32 +6,32 @@ class Pony < Formula
   # Prebuilt kegs from the release. Pouring one skips Homebrew's
   # build-from-source checks, so no Command Line Tools are needed.
   bottle do
-    root_url "https://github.com/LoremLabs/pony/releases/download/v0.0.10"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "2239481e4e52146a7016b69c81756c57c79c5072eef36818f7723cd036141ce6"
-    sha256 cellar: :any_skip_relocation, big_sur:       "c280f7222fcdbf935c73e44be5f2c0630b2176ba16fe9e3b78ff03c5471c4b2a"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "f5a4d47d99e18a3767f34eecd35aa1d09382bcd16b5ea153c1c6461755fb8d5b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "0550d54011ad0852cdaba338c811a66b7a12d057a4fe6d3b1c7201789351da64"
+    root_url "https://github.com/LoremLabs/pony/releases/download/v0.0.11"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "43c70909b3ccd0c47c64bc98e47ec196bb0e3078ae8c21c5ee80f04906343f49"
+    sha256 cellar: :any_skip_relocation, big_sur:       "bd16ed871da2563381739b11aa647eed82f515c362a806fe0b3c8ac059910fd5"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "c8698d81f234088287ae3adefe37cc9ffdc674145bd360ec7ce3f3e6099dfd30"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "8f13701865f30a31f284c8f29ccce41e8463f2cb795c2d9eff9dff707cae9fa6"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/LoremLabs/pony/releases/download/v0.0.10/pony_0.0.10_darwin_arm64.tar.gz"
-      sha256 "d2d038c43acf758f41109c417ca57a4a5fe183934c05a9bcfeaf238b5a6816f2"
+      url "https://github.com/LoremLabs/pony/releases/download/v0.0.11/pony_0.0.11_darwin_arm64.tar.gz"
+      sha256 "6af91515bd50f208b44b9c78f988d0d01b68779e6283ffb0ccdac4d74c1a06cb"
     end
     on_intel do
-      url "https://github.com/LoremLabs/pony/releases/download/v0.0.10/pony_0.0.10_darwin_amd64.tar.gz"
-      sha256 "78cd1a0f31e7b12833beda9e7300eda8aa352b7a77e6822645cc66a39ecf73af"
+      url "https://github.com/LoremLabs/pony/releases/download/v0.0.11/pony_0.0.11_darwin_amd64.tar.gz"
+      sha256 "e46db53529b1ec00d5768065db375b338a9c33777b2bd26fddf95b3af19b6387"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LoremLabs/pony/releases/download/v0.0.10/pony_0.0.10_linux_arm64.tar.gz"
-      sha256 "cae0163c00476e91de2aef593322af43e01780e457d82915248a3331d21963d5"
+      url "https://github.com/LoremLabs/pony/releases/download/v0.0.11/pony_0.0.11_linux_arm64.tar.gz"
+      sha256 "05af02b5b6a575c8cc7c199c7113d0afb44726b475f32d0066de569368e401f7"
     end
     on_intel do
-      url "https://github.com/LoremLabs/pony/releases/download/v0.0.10/pony_0.0.10_linux_amd64.tar.gz"
-      sha256 "35aee631405f10b90d12024adf674ac2e71b5aa9e6baf7d1a36887082adb285a"
+      url "https://github.com/LoremLabs/pony/releases/download/v0.0.11/pony_0.0.11_linux_amd64.tar.gz"
+      sha256 "036593f240397f568cb4a57b49288deded8f7ff81e1ce1a3c11a9e39c46dcf9a"
     end
   end
 
